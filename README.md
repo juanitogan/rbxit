@@ -10,16 +10,16 @@ RBXIT Win7 game patches!  First section!.. because that is why you are here, rig
 
 :trollface: Please do not "steal" these game patches by hosting them on your own site.  Link here instead or, more preferrably, to my [blog post](http://namethattech.wordpress.com).  If I can't determine how popular they might be by the traffic, then why should I make more?  Note how, in the RBXIT wiki, I didn't steal any of the Sierra udpate files from [The Sierra Help Pages](http://www.sierrahelp.com/).  That's the way to do it.  It's called respect for someone's work. :+1:
 
-[**Please see the RBXIT wiki for game installation instructions and patches.**](wiki)
+[**Please see the RBXIT wiki for game installation instructions and patches.**](https://github.com/juanitogan/rbxit/wiki)
 
 Otherwise, here are direct links to just the RBXIT Win7 patch files:
 
 - 3·D Ultra MiniGolf v1.0 _(on the way)_
 - 3·D Ultra MiniGolf v1.1 _(on the way)_
-- [3·D Ultra MiniGolf Deluxe v2.0](releases/download/v1.0.0.3d-ultra-minigolf-deluxe-20.0/3DUltraMiniGolfDeluxe-20-Win7fix.exe)
-- [3·D Ultra MiniGolf Deluxe Demo](releases/download/v1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
+- [3·D Ultra MiniGolf Deluxe v2.0](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-20.0/3DUltraMiniGolfDeluxe-20-Win7fix.exe)
+- [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
 - 3·D Ultra Pinball series _(coming soon)_
-- [MissionForce: CyberStorm v1.0 and v1.1](releases/download/v1.0.0.cyberstorm-10-11.0/CyberStorm-10-11-Win7fix.exe)
+- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/1.0.0.cyberstorm-10-11.0/CyberStorm-10-11-Win7fix.exe)
 - CyberStorm 2: Corporate Wars _(on the way)_
 
 In brief, all that these patches do is replace the Sierra ADPCM audio data with standard 16-bit PCM audio data of the same sample rate, as well as adjusting the WAX header info so that the game knows what kind of audio data it is reading.  If you read through the patch's batch file, you will see that no EXE files are harmed during this production (thus far) and so there should be little threat of misconduct here.
