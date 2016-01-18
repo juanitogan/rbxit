@@ -1,18 +1,18 @@
 # RBXIT - Really Basic sÍerra Tools
 _(the X is x'd out)_
 
-Welcome to my collection of utilities and patches for [Sierra](https://en.wikipedia.org/wiki/List_of_Sierra_Entertainment_video_games) and [Dynamix](https://en.wikipedia.org/wiki/Dynamix) games from early versions of Windows--particularly, Windows 95.  I am trying to fix the games up nice and shiny to run on Windows 7 through 10 and beyond.  For the full story, please see my blog post on the subject: [Fixing Up Old (Sierra) Computer Games](http://namethattech.wordpress.com).
+Welcome to my collection of utilities and patches for [Sierra](https://en.wikipedia.org/wiki/List_of_Sierra_Entertainment_video_games) and [Dynamix](https://en.wikipedia.org/wiki/Dynamix) games from early versions of Windows--particularly, Windows 95.  I am trying to fix the games up nice and shiny to run on Windows 7 through 10 and beyond.  For the full story, please see my blog post on the subject: [Fixing Up Old (Sierra) Computer Games](https://namethattech.wordpress.com/2016/01/18/fixing-up-old-computer-games/).
 
 
 ## Game Patches to Make Your Games Shiny Again
 
 RBXIT Win7 game patches!  First section!.. because that is why you are here, right?  Not the tools??
 
-:trollface: Please do not "steal" these game patches by hosting them on your own site.  Link here instead or, more preferrably, to my [blog post](http://namethattech.wordpress.com).  If I can't determine how popular they might be by the traffic, then why should I make more?  Note how, in the RBXIT wiki, I didn't steal any of the Sierra udpate files from [The Sierra Help Pages](http://www.sierrahelp.com/).  That's the way to do it.  It's called respect for someone's work. :+1:
+:trollface: Please do not "steal" these game patches by hosting them on your own site.  Link here instead or, more preferrably, to my [blog post](https://namethattech.wordpress.com/2016/01/18/fixing-up-old-computer-games/).  If I can't determine how popular they might be by the traffic, then why should I make more?  Note how, in the RBXIT wiki, I didn't steal any of the Sierra udpate files from [The Sierra Help Pages](http://www.sierrahelp.com/).  That's the way to do it.  It's called respect for someone's work. :+1:
 
-[**Please see the RBXIT wiki for game installation instructions and patches.**](https://github.com/juanitogan/rbxit/wiki)
+#### [**Please see the RBXIT wiki for game installation instructions and patches.**](https://github.com/juanitogan/rbxit/wiki)
 
-Otherwise, here are direct links to just the RBXIT Win7 patch files:
+For the geeks who don't need no stupid wiki, here are shortcuts to the RBXIT Win7 patch files:
 
 - 3·D Ultra MiniGolf v1.0 _(on the way)_
 - 3·D Ultra MiniGolf v1.1 _(on the way)_
