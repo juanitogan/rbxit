@@ -12,14 +12,14 @@ RBXIT Win7 game patches!  First section!.. because that is why you are here, rig
 
 #### [**Please see the RBXIT wiki for game installation instructions and patches.**](https://github.com/juanitogan/rbxit/wiki)
 
-For the geeks who don't need no stupid wiki, here are shortcuts to the RBXIT Win7 patch files:
+For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win7 patch files:
 
 - 3·D Ultra MiniGolf v1.0 _(on the way)_
 - 3·D Ultra MiniGolf v1.1 _(on the way)_
 - [3·D Ultra MiniGolf Deluxe v2.0](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-20.0/3DUltraMiniGolfDeluxe-20-Win7fix.exe)
 - [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
 - 3·D Ultra Pinball series _(coming soon)_
-- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/1.0.0.cyberstorm-10-11.0/CyberStorm-10-11-Win7fix.exe) :warning: **(for one-day games; load and save still do not work!)**
+- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/1.0.0.cyberstorm-10-11.r2/CyberStorm-10-11-Win7fix.r2.exe) :warning: **(all issues fixed; new release being packaged)**
 - CyberStorm 2: Corporate Wars _(on the way)_
 
 In brief, all that these patches do is replace the Sierra ADPCM audio data with standard 16-bit PCM audio data of the same sample rate, as well as adjusting the WAX header info so that the game knows what kind of audio data it is reading.  If you read through the patch's batch file, you will see that no EXE files are harmed during this production (thus far) and so there should be little threat of misconduct here.
