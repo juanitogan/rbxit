@@ -65,8 +65,19 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**DirectX 9**](https://www.microsoft.com/en-in/download/details.aspx?id=8109).  I had DX9 already installed before I began work on RBXIT because of [sound problems with Worms Crazy Golf](http://steamcommunity.com/app/70620/discussions/2/34094415776635336/#c451848855002491098).  Therefore, I list it here _just in case_ it is discovered this somehow affects the solutions here.
 
-[**xdelta**](http://xdelta.org/) is a binary diff tool that works far better with what I do to the RBX files than any other diff/patcher I tried/read about.  It is designed for a different type of diff and isn't really "better" than the others.  The others were giving me 10% compression at most when I should have been getting 90%.
+[**IPXWrapper**](http://www.solemnwarning.net/ipxwrapper/) in case you have an old game that only supports the IPX network protocol.
+
+[**Windows Assessment and Deployment Kit (ADK) for Windows 10**](https://msdn.microsoft.com/en-us/windows/hardware/dn913721.aspx#adkwin10) for more rapidly testing hidden compatiblity settings.  This is what ultimately rescued CyberStorm from it's crippling file-dialog issue.  The ADK is a superset of the older [Microsoft Application Compatibility Toolkit (ACT) 5.6](https://www.microsoft.com/en-us/download/details.aspx?id=7352)
+
+[**MultiRes**](http://www.entechtaiwan.com/util/multires.shtm) for setting and restoring the display resolution from the system tray or the command line.  A PowerShell script alternative can be found [here](http://blogs.technet.com/b/heyscriptingguy/archive/2010/07/07/hey-scripting-guy-how-can-i-change-my-desktop-monitor-resolution-via-windows-powershell.aspx) and in our wiki [here](https://github.com/juanitogan/rbxit/wiki/Set-display-resolution-in-a-batch-file).
 
 [**MP3Gain**](http://mp3gain.sourceforge.net/) for adjusting volume in MP3 files without rewriting the audio data.
 
 [**MIDIVOL**](http://www.gnmidi.com/gnfreeen.htm) for adjusting volume in MIDI files.  16-bit DOS program.  Thus, this will not run in a modern Windows Command shell.  Might run in [DOSBox](http://www.dosbox.com/).  I haven't tried this tool yet (at least, not in recent memory).  _If anyone has a suggested replacement, I would like to hear it. It should to be a simple tool like this one and not a multi-tool or sequencer._
+
+[**xdelta**](http://xdelta.org/) is a binary diff tool that works far better with what I do to the RBX files than any other diff/patcher I tried/read about.  It is designed for a different type of diff and isn't really "better" than the others.  The others were giving me 10% compression at most when I should have been getting 90%.
+
+Looking for old files?
+- http://originaldll.com/
+- http://www.opendll.com/
+- http://www.filewatcher.com/
