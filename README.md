@@ -69,7 +69,7 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**Windows Assessment and Deployment Kit (ADK) for Windows 10**](https://msdn.microsoft.com/en-us/windows/hardware/dn913721.aspx#adkwin10) for more rapidly testing hidden compatiblity settings.  This is what ultimately rescued CyberStorm from it's crippling file-dialog issue.  The ADK is a superset of the older [Microsoft Application Compatibility Toolkit (ACT) 5.6](https://www.microsoft.com/en-us/download/details.aspx?id=7352)
 
-[**MultiRes**](http://www.entechtaiwan.com/util/multires.shtm) for setting and restoring the display resolution from the system tray or the command line.  A PowerShell script alternative can be found [here](http://blogs.technet.com/b/heyscriptingguy/archive/2010/07/07/hey-scripting-guy-how-can-i-change-my-desktop-monitor-resolution-via-windows-powershell.aspx) and in our wiki [here](https://github.com/juanitogan/rbxit/wiki/Set-display-resolution-in-a-batch-file).
+[**MultiRes**](http://www.entechtaiwan.com/util/multires.shtm) for setting and restoring the display resolution from the system tray or the command line.  A PowerShell script alternative can be found [here](http://blogs.technet.com/b/heyscriptingguy/archive/2010/07/07/hey-scripting-guy-how-can-i-change-my-desktop-monitor-resolution-via-windows-powershell.aspx) and in our wiki [here](https://github.com/juanitogan/rbxit/wiki/Display-resolution-shortcuts).
 
 [**MP3Gain**](http://mp3gain.sourceforge.net/) for adjusting volume in MP3 files without rewriting the audio data.
 
