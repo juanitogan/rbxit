@@ -8,7 +8,7 @@ Welcome to my collection of utilities and patches for [Sierra](https://en.wikipe
 
 RBXIT Win7 game patches!  First section!.. because that is why you are here, right?  Not the tools??
 
-Please do not "steal" these game patches by hosting them on your own site :trollface:.  Link here instead or, more preferrably, to my [blog post](https://namethattech.wordpress.com/2016/01/18/fixing-up-old-computer-games/).  If I can't determine how popular they might be by the traffic, then why should I make more?  Note how, in the RBXIT wiki, I didn't steal any of the Sierra udpate files from [The Sierra Help Pages](http://www.sierrahelp.com/).  That's the way to do it.  It's called respect for someone's work :+1:.
+Please do not "steal" these game patches by hosting them on your own site :trollface:.  Link here instead or, more preferrably, to my [blog post](https://namethattech.wordpress.com/2016/01/18/fixing-up-old-computer-games/).  If I can't determine how popular they might be by the traffic, then why should I make more?
 
 #### [:arrow_right: Click here to see the RBXIT wiki for game installation instructions and patches.](https://github.com/juanitogan/rbxit/wiki)
 
