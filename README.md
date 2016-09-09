@@ -14,12 +14,13 @@ Please do not _steal_ these game patches by hosting them on your own site :troll
 
 For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win7 patch files:
 
-- [3·D Ultra MiniGolf v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-10-11.r1/3DUltraMiniGolf-10-11-Win7fix.exe)
-- [3·D Ultra MiniGolf Deluxe v2.0](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-20.r1/3DUltraMiniGolfDeluxe-20-Win7fix.exe)
+- [3·D Ultra MiniGolf v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/all.r1/3DUltraMiniGolf-10-11-Win7fix.r2.exe)
+- [3·D Ultra MiniGolf Deluxe v2.0](https://github.com/juanitogan/rbxit/releases/download/all.r1/3DUltraMiniGolfDeluxe-20-Win7fix.r2.exe)
 - [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
-- [MissionForce: CyberStorm v1.0 and v1.1 (USA copies)](https://github.com/juanitogan/rbxit/releases/download/1.0.0.cyberstorm-10-11.r3/CyberStorm-10-11-Win7fix.r3.exe)
-- [MissionForce: CyberStorm v1.0 and v1.1 (Europe copies)](https://github.com/juanitogan/rbxit/releases/download/1.0.0.cyberstorm-10-11.r3.eu/CyberStorm-10-11-Win7fix.r3.eu.exe)
+- [MissionForce: CyberStorm v1.0 and v1.1 (USA copies)](https://github.com/juanitogan/rbxit/releases/download/all.r1/CyberStorm-10-11-Win7fix.r4.exe)
+- [MissionForce: CyberStorm v1.0 and v1.1 (Europe copies)](https://github.com/juanitogan/rbxit/releases/download/all.r1/CyberStorm-10-11-Win7fix.r4.eu.exe)
 - CyberStorm 2: Corporate Wars _(in the queue)_
+- 3·D Ultra Pinball (install instructions found in the wiki)
 
 In brief, most of what these patches do is replace the Sierra ADPCM audio data with standard 16-bit PCM audio data of the same sample rate, as well as adjusting the WAX header info so that the game knows what kind of audio data it is reading.  If you read through the patch's batch file, you will see that no EXE files are harmed during this production (thus far) and so there should be little threat of misconduct here.
 
@@ -68,6 +69,8 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**Windows Assessment and Deployment Kit (ADK) for Windows 10**](https://msdn.microsoft.com/en-us/windows/hardware/dn913721.aspx#adkwin10) for more rapidly testing hidden compatiblity settings.  This is what ultimately rescued CyberStorm from it's crippling file-dialog issue.  The ADK is a superset of the older [Microsoft Application Compatibility Toolkit (ACT) 5.6](https://www.microsoft.com/en-us/download/details.aspx?id=7352)
 
+[**DxWnd**](https://sourceforge.net/projects/dxwnd/) is a bit like the Microsoft ADK but is more ad-hoc, more friendly, and does more than just give access to some of those hidden compatibility settings.
+
 [**MultiRes**](http://www.entechtaiwan.com/util/multires.shtm) for setting and restoring the display resolution from the system tray or the command line.  A PowerShell script alternative can be found [here](http://blogs.technet.com/b/heyscriptingguy/archive/2010/07/07/hey-scripting-guy-how-can-i-change-my-desktop-monitor-resolution-via-windows-powershell.aspx) and in our wiki [here](https://github.com/juanitogan/rbxit/wiki/Display-resolution-shortcuts).
 
 [**MP3Gain**](http://mp3gain.sourceforge.net/) for adjusting volume in MP3 files without rewriting the audio data.
@@ -80,3 +83,10 @@ Looking for old files?
 - http://originaldll.com/
 - http://www.opendll.com/
 - http://www.filewatcher.com/
+
+Looking for hope with other games?
+- http://classicgamefixes.wixsite.com/home
+- http://www.play-old-pc-games.com/
+- http://www.dosbox.com/
+- https://www.gog.com/
+- http://store.steampowered.com/
