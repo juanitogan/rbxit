@@ -65,7 +65,7 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**DirectX 9**](https://www.microsoft.com/en-in/download/details.aspx?id=8109).  I had DX9 already installed before I began work on RBXIT because of [sound problems with Worms Crazy Golf](http://steamcommunity.com/app/70620/discussions/2/34094415776635336/#c451848855002491098).  Therefore, I list it here _just in case_ it is discovered this somehow affects the solutions here.
 
-[**dgVoodoo 2**](http://dege.freeweb.hu/).  Graphics wrapper for Glide and old DirectX.
+[**dgVoodoo 2**](http://dege.freeweb.hu/) is a graphics wrapper for running old Glide and old DirectX games.
 
 [**IPXWrapper**](http://www.solemnwarning.net/ipxwrapper/) in case you have an old game that only supports the IPX network protocol.
 
@@ -74,6 +74,8 @@ The Python scripts are what they are and more detailed descriptions are best fou
 [**DxWnd**](https://sourceforge.net/projects/dxwnd/) is a bit like the Microsoft ADK but is more ad-hoc, more friendly, and does more than just give access to some of those hidden compatibility settings.
 
 [**MultiRes**](http://www.entechtaiwan.com/util/multires.shtm) for setting and restoring the display resolution from the system tray or the command line.  A PowerShell script alternative can be found [here](http://blogs.technet.com/b/heyscriptingguy/archive/2010/07/07/hey-scripting-guy-how-can-i-change-my-desktop-monitor-resolution-via-windows-powershell.aspx) and in our wiki [here](https://github.com/juanitogan/rbxit/wiki/Display-resolution-shortcuts).
+
+[**InstalledCoded**](http://www.nirsoft.net/utils/installed_codec.html) for controlling what codecs are in play when testing video and audio problems.
 
 [**MP3Gain**](http://mp3gain.sourceforge.net/) for adjusting volume in MP3 files without rewriting the audio data.
 
