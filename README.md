@@ -75,7 +75,7 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**MultiRes**](http://www.entechtaiwan.com/util/multires.shtm) for setting and restoring the display resolution from the system tray or the command line.  A PowerShell script alternative can be found [here](http://blogs.technet.com/b/heyscriptingguy/archive/2010/07/07/hey-scripting-guy-how-can-i-change-my-desktop-monitor-resolution-via-windows-powershell.aspx) and in our wiki [here](https://github.com/juanitogan/rbxit/wiki/Display-resolution-shortcuts).
 
-[**InstalledCoded**](http://www.nirsoft.net/utils/installed_codec.html) for controlling what codecs are in play when testing video and audio problems.
+[**InstalledCodec**](http://www.nirsoft.net/utils/installed_codec.html) for controlling what codecs are in play when testing video and audio problems.
 
 [**MP3Gain**](http://mp3gain.sourceforge.net/) for adjusting volume in MP3 files without rewriting the audio data.
 
