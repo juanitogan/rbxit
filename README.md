@@ -15,7 +15,7 @@ Please do not _steal_ these game patches by hosting them on your own site :troll
 For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win7 patch files:
 
 - [3·D Ultra MiniGolf v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/all.r1/3DUltraMiniGolf-10-11-Win7fix.r2.exe)
-- [3·D Ultra MiniGolf Deluxe v2.0](https://github.com/juanitogan/rbxit/releases/download/all.r1/3DUltraMiniGolfDeluxe-20-Win7fix.r2.exe)
+- [3·D Ultra MiniGolf Deluxe v2.0](https://github.com/juanitogan/rbxit/releases/download/3dumgd.patch.r3/3DUltraMiniGolfDeluxe-20-Win7fix.r3.exe) (USA and Europe)
 - [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
 - [MissionForce: CyberStorm v1.0 and v1.1 (USA copies)](https://github.com/juanitogan/rbxit/releases/download/all.r1/CyberStorm-10-11-Win7fix.r4.exe)
 - [MissionForce: CyberStorm v1.0 and v1.1 (Europe copies)](https://github.com/juanitogan/rbxit/releases/download/all.r1/CyberStorm-10-11-Win7fix.r4.eu.exe)
