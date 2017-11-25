@@ -22,9 +22,8 @@ For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win
 - [3·D Ultra MiniGolf Deluxe v2.0, French](https://github.com/juanitogan/rbxit/releases/download/3dumgd.f.patch.r5/3DUltraMiniGolfDeluxe-French-20-Win7fix.r5.exe) (a.k.a. _Minigolf Fantasy_)
 - [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
 - 3·D Ultra Pinball (install instructions found in the wiki)
-- [MissionForce: CyberStorm v1.0 and v1.1 (USA copies)](https://github.com/juanitogan/rbxit/releases/download/all.r1/CyberStorm-10-11-Win7fix.r4.exe)
-- [MissionForce: CyberStorm v1.0 and v1.1 (Europe copies)](https://github.com/juanitogan/rbxit/releases/download/all.r1/CyberStorm-10-11-Win7fix.r4.eu.exe)
-- MissionForce: CyberStorm v1.2 (the lost homebrew version found in the wiki)
+- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/wiki/CyberStorm-1) (must get from wiki)
+- MissionForce: CyberStorm v1.2 (the lost homebrew version, see wiki)
 - [CyberStorm 2: Corporate Wars](https://github.com/juanitogan/rbxit/releases/download/cs2.patch.r1/CyberStorm2-101-Patch.exe) (just a redo of Sierra’s 1.01 patch)
 - EarthSiege 2 (install instructions and tools found in the wiki)
 
