@@ -22,7 +22,7 @@ For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win
 - [3·D Ultra MiniGolf Deluxe v2.0, French](https://github.com/juanitogan/rbxit/releases/download/3dumgd.f.patch.r5/3DUltraMiniGolfDeluxe-French-20-Win7fix.r5.exe) (a.k.a. _Minigolf Fantasy_)
 - [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
 - 3·D Ultra Pinball (install instructions found in the wiki)
-- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/wiki/CyberStorm-1) (must get from wiki)
+- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/cs1.patch.r6/CyberStorm-10-11-Win7fix.r6.exe)
 - MissionForce: CyberStorm v1.2 (the lost homebrew version, see wiki)
 - [CyberStorm 2: Corporate Wars](https://github.com/juanitogan/rbxit/releases/download/cs2.patch.r1/CyberStorm2-101-Patch.exe) (just a redo of Sierra’s 1.01 patch)
 - EarthSiege 2 (install instructions and tools found in the wiki)
@@ -68,11 +68,19 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**Windows Help program (WinHlp32.exe)**](https://support.microsoft.com/en-us/kb/917607) in case you are running a Windows version that is still supported for reading HLP files but does not come with the program built in (Vista through 8.1).  It is looking likely that Windows 8.1 will be the last.
 
+[**ODA - The Online Disassembler**](https://onlinedisassembler.com/odaweb/) helps a great deal when rewriting machine code.
+
+[**Retargetable Decompiler**](https://retdec.com/decompilation/) is a fairly good online disassembler and decompiler in spite of its bugs.  Free version limited to 5-minute jobs.
+
 [**DirectX 9**](https://www.microsoft.com/en-in/download/details.aspx?id=8109).  I had DX9 already installed before I began work on RBXIT because of [sound problems with Worms Crazy Golf](http://steamcommunity.com/app/70620/discussions/2/34094415776635336/#c451848855002491098).  Therefore, I list it here _just in case_ it is discovered this somehow affects the solutions here.
 
 [**dgVoodoo 2**](http://dege.freeweb.hu/) is a graphics wrapper for running old Glide and old DirectX games.
 
-[**IPXWrapper**](http://www.solemnwarning.net/ipxwrapper/) in case you have an old game that only supports the IPX network protocol.
+[**cnc-ddraw**](http://dege.freeweb.hu/) is a graphics wrapper for running a few old DirectDraw games as OpenGL.
+
+[**DDrawCompat**](http://dege.freeweb.hu/) is a graphics wrapper for running old DirectDraw games as more compatible DirectDraw.
+
+[**IPXWrapper**](http://www.solemnwarning.net/ipxwrapper/) in case you have an old game that requires the IPX network protocol.
 
 [**Windows Assessment and Deployment Kit (ADK) for Windows 10**](https://msdn.microsoft.com/en-us/windows/hardware/dn913721.aspx#adkwin10) for more rapidly testing hidden compatiblity settings.  This is what ultimately rescued CyberStorm from it's crippling file-dialog issue.  The ADK is a superset of the older [Microsoft Application Compatibility Toolkit (ACT) 5.6](https://www.microsoft.com/en-us/download/details.aspx?id=7352)
 
