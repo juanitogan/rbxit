@@ -76,9 +76,9 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**dgVoodoo 2**](http://dege.freeweb.hu/) is a graphics wrapper for running old Glide and old DirectX games.
 
-[**cnc-ddraw**](http://dege.freeweb.hu/) is a graphics wrapper for running a few old DirectDraw games as OpenGL.
+[**cnc-ddraw**](http://hifi.iki.fi/cnc-ddraw/) is a graphics wrapper for running a few old DirectDraw games as OpenGL.
 
-[**DDrawCompat**](http://dege.freeweb.hu/) is a graphics wrapper for running old DirectDraw games as more compatible DirectDraw.
+[**DDrawCompat**](https://github.com/narzoul/DDrawCompat) is a graphics wrapper for running old DirectDraw games as more compatible DirectDraw.
 
 [**IPXWrapper**](http://www.solemnwarning.net/ipxwrapper/) in case you have an old game that requires the IPX network protocol.
 
