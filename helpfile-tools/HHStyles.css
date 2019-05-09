@@ -1,0 +1,118 @@
+/* Cascading Style Sheet for IE4.0 build 1008+ */
+
+body{
+	background: #000000;
+	color: #C0C0C0;
+	font-size: 10pt;
+	line-height: 125%;
+	font-family: Times New Roman;
+	margin: 0;
+}
+
+a:link{color: #FFFF00;}
+a:active{color: #02A902;}
+a:visited{color: #FFFF00;}
+a{text-decoration: none;}
+
+.left{text-align: left;}
+.center{text-align: center;}
+.right{text-align: right;}
+.justify{text-align: justify;}
+
+.indent{/*text-indent: 0.75pt;*/}
+.noindent{text-indent: 0pt;}
+.hanging{
+	text-indent: -8.75pt; /* \fi-175 / 20 = -8.25 */
+	margin-left: 17.5pt; /* \li175 / 20 - -8.25 = 17.5 */
+}
+
+.fs16{font-size: 8pt;}
+.fs20{font-size: 10pt;}
+.fs24{font-size: 12pt;}
+.fs28{font-size: 14pt;}
+.fs32{font-size: 16pt;}
+.fs36{font-size: 18pt;}
+.fs48{font-size: 24pt;}
+
+h1{font-size:145%;margin-bottom:.5em;}
+h2{font-size:125%;margin-top:1.5em;margin-bottom:.5em;}
+h3{font-size: 110%;margin-top:1.2em;margin-bottom:.5em;}
+
+p{
+	margin-top:0pt;
+	margin-bottom:0pt;
+	margin-left: 8.75pt; /* \li175 / 20 = 8.75 */
+}
+p img{
+	margin-left: -8.75pt;
+}
+
+li p{margin-top:.6em;margin-bottom:0em;}
+big{font-weight:bold;font-size:105%;}
+ol{margin-top:.5em;margin-bottom:0em}	
+ul{margin-top:.6em;margin-bottom:0em;margin-left:2.75em;}
+ol ul{list-style:disc;margin-top:2em;}
+li{padding-bottom:.7em;margin-left:-1.25em;}
+dl ul{margin-top:2em;margin-bottom:0em;}/*list item inside a def/term*/
+dl{margin-top:-1em;}
+ol dl{margin-top:-1.5em;margin-left:0em;}/*term/def list inside a numbered list*/
+ol dl dl{margin-top: 0em;margin-left:.2em;}/*term/def list inside a term/def list*/
+dd{margin-bottom:0em;/*not currently working*/margin-left: 1.5em;}
+dt{padding-top:2em;font-weight: bold; margin-left:1.5em;}
+code{font-family:Courier;}
+pre{margin-top:0em margin-bottom:1.5em; font-family:Courier;	font-size: 125%}
+
+table{
+	font-size:100%;
+	/*margin: auto; /*no effect -- must use align="center" for CHM files*/
+}
+tr{
+	vertical-align: top;
+}
+td{
+	/*margin: 3pt;*/
+	padding-left: 4.25pt; /* \trgaph105 / 20 = 5.25 */
+	padding-right: 4.25pt; /* had to cheat it smaller due to font metrics */
+}
+td p{
+	margin-left: 0;
+}
+/*
+td img{
+	display: block;
+	margin: auto; /*no effect*
+}
+td img + p{ /*no effect*
+	text-align: center;
+}
+td>b{ /*no effect*
+	/*text-decoration: underline;*
+}
+*/
+
+/*  IE 4.0 TAGS  */
+p.dis{font-size: 6pt;}
+h5{}
+h5.active{background: #000000;	color: #FFCC99;}
+
+/* -- subheading -- */
+h5.subh	{color: #660000;margin-bottom:-1em;margin-top: 1.5em;}
+
+/* -- Overview heading -- */
+h5.overh{font-size:120%;margin-bottom:1%;}
+
+/* -- procedure heading -- */
+h5.proch{margin-bottom:4pt;}
+
+/* -- topic heading -- */
+h5.topich{margin-bottom:-1em;}
+
+/* -- Decision heading -- */
+h5.what{color: #993399;margin-bottom:.4em;}
+
+/* -- note 'n' tip heading -- */
+h5.note{margin-top:1em;margin-bottom: 0em;}
+
+/* -- related topics heading -- */
+h5.relh{margin-top: 2.25em;margin-bottom: -1em;}
+

@@ -22,7 +22,7 @@ For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win
 - [3·D Ultra MiniGolf Deluxe v2.0, French](https://github.com/juanitogan/rbxit/releases/download/3dumgd.f.patch.r5/3DUltraMiniGolfDeluxe-French-20-Win7fix.r5.exe) (a.k.a. _Minigolf Fantasy_)
 - [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
 - 3·D Ultra Pinball (install instructions found in the wiki)
-- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/cs1.patch.r6/CyberStorm-10-11-Win7fix.r6.exe)
+- [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/cs1.patch.r7/CyberStorm-10-11-Win7fix.r7.exe)
 - MissionForce: CyberStorm v1.2 (the lost homebrew version, see wiki)
 - [CyberStorm 2: Corporate Wars](https://github.com/juanitogan/rbxit/releases/download/cs2.patch.r1/CyberStorm2-101-Patch.exe) (just a redo of Sierra’s 1.01 patch)
 - EarthSiege 2 (install instructions and tools found in the wiki)
@@ -64,9 +64,15 @@ The Python scripts are what they are and more detailed descriptions are best fou
 
 [**InstallSHIELD Tools**](http://www.cdmediaworld.com/hardware/cdrom/files.shtml) for unpacking old installers that don't run on modern Windows.  [This read also helps.](http://blog.wisefaq.com/2010/07/24/how-to-open-an-installshield-data-cab-file/)
 
-[**WinHelp Decompiler "HELPDECO"**](http://sourceforge.net/projects/helpdeco/) for unpacking those old Windows HLP files.
+[**help-info.de**](http://www.help-info.de/en/Help_Info_WinHelp/hw_converting.htm) for lots of helpful information on converting HLP to CHM help files.
 
-[**Windows Help program (WinHlp32.exe)**](https://support.microsoft.com/en-us/kb/917607) in case you are running a Windows version that is still supported for reading HLP files but does not come with the program built in (Vista through 8.1).  It is looking likely that Windows 8.1 will be the last.
+[**WinHelp Decompiler "HELPDECO"**](http://sourceforge.net/projects/helpdeco/) for unpacking those old Windows HLP files (and MVB files).
+
+[**HTML Help Workshop**](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-1-4-sdk) for converting HLP ___source files___ to CHM help.
+
+[**HHPMod**](http://post.queensu.ca/%7Epenstone/HHPMod/HHPMod_info.html) for restoring context-sensitive sanity to the output of HTML Help Workshop.
+
+[**Windows Help program (WinHlp32.exe)**](https://support.microsoft.com/en-us/kb/917607) in case you are running a Windows version that is still supported for reading HLP files but does not come with the program built in (Vista through 8.1).  It is looking likely that Windows 8.1 will be the last.  For Windows 10, some are finding luck with this resource from [Komeil Bahmanpour](http://www.komeil.com/blog/windows-help-program-winhelp-winhlp32-exe).
 
 [**ODA - The Online Disassembler**](https://onlinedisassembler.com/odaweb/) helps a great deal when rewriting machine code.
 
@@ -109,4 +115,3 @@ Looking for hope with other games?
 - http://dege.freeweb.hu/
 - http://www.dosbox.com/
 - https://www.gog.com/
-- http://store.steampowered.com/

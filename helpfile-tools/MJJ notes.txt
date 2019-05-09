@@ -1,0 +1,188 @@
+[1] = handled by 01_MVB_recomp.bat
+[2] = handled by 02_MVB_recomp.bat
+
+
+- Edit your custom HHStyles.css for your new CHM help file.
+	It will likely take a lot of work and iterations to get the CSS how you want it.
+	This is listed first because [1] will copy it into the correct folder
+	if you have one ready to go
+	(as would be the case if recompiling multiple files and languages).
+
+[1]- HELPDECO METALSTO.MVB
+
+[1]- Rename/copy METALSTO.MPV to *.HPJ
+
+[1]- Copy METALSTO.RTF to METALSTO.org.RTF
+
+[1]- babun vs WSL are identical, so one of these:
+	from babun (or from WSL):
+		fixrtf.py METALSTO.org.RTF METALSTO.RTF
+	from DOS:
+		wsl fixrtf.py METALSTO.org.RTF METALSTO.RTF
+
+- HTML Help Workshop (HHW):
+
+	- File >> New >> Project >> OK
+	- [x] Convert WinHelp project >> Next
+	- ... WinHelp project file ...:            [...\MVB decompile\METALSTO.HPJ]
+	- ... name of the project (.hhp) file ...: [...\HHW wiz\METALSTO.hhp      ] >> Next
+	- (replace existing project? >> Yes)
+	- Finish
+
+- HHPMod:
+
+	- "This is...blah blah..." >> Next
+	- Converted HTML Help Project File:        [...\HHW wiz\METALSTO.hhp      ] >> Next
+	- Original WinHelp Project File:           [...\MVB decompile\METALSTO.HPJ] >> Next
+	- "Successfully scanned all files." >> OK
+	- Options >> HTML Options >> [x] Insert link to Style Sheet [HHStyles.css] >> OK
+	- Location of New HTML Help Project File:  [...\HHW mod\METALSTO.hhp      ] >> Next
+	- (overwrite project? >> Yes)
+		(but make sure you backed up *.hhk *.hhp first if manually edited)
+	- "Successfully..." >> OK   (busy work)
+	- "Wrote..."        >> Next (busy work)
+	- "Wrote..."        >> Exit (busy work)
+	- "Do you..."       >> Yes  (busy work)
+
+- Create/scrape/whatever *.*.map files to ...\HHW mod\html or ...\HHW mod\images
+	(see fixhtml.py source code comments)
+
+- If needed: from ...\HHW mod (with a fixnames.csv file here as well):
+	fixnames.py
+
+[2]- From ...\HHW mod\html (yes, must be in the html folder):
+	fixhtml.py *.htm
+
+- If needed: copy *.hhk *.hhp backups back to ...\HHW mod
+
+[1]- Copy your custom HHStyles.css to ...\HHW mod
+
+- HHW:
+
+	- File >> Close Project
+	- File >> Open >> ...\HHW mod\METALSTO.hhp
+	- Scan Index tab (and/or METALSTO.hhk) for any accidental parent/child entries
+		These come from entries with a colon in the name.
+		Easiest to fix by editing METALSTO.hhk (but can aso be fixed in HHW, I think).
+		(see below)
+	- Project tab: add a main window and set project options, etc...
+		- Project tab >> Add/Modify window definitions button
+		- Create a window type name: [main] >> OK
+			- General tab >> Title bar text: [Herc Commander's Guide]
+				(title found in ...\MVB decompile\METALSTO.MVP as MAIN="title"...)
+			- Buttons tab >> checked: Hide/Show, Back, Forward, Print
+				(this sets things to most similar to default MVB view)
+			- Position tab >> Left: [0], Top: [0], Width: [678], Height: [564]   (for 640x480 content... ish)
+			- Files tab >> leave Index as is, set Home same as Default
+			- Navigation Pane tab >> leave as [x] [____]
+				>> Properties: [x] Open with nav pane closed, [ ], [ ]
+				>> Tabs: Default tab: [Index|v], [x] Search tab, [x] Advanced, [x] Favorites tab
+				(this sets things to most similar to default MVB view)
+			- Styles tab >> leave at none
+			- Extended Styles tab >> leave at none
+		>> OK
+		>> Resolve Window Definition wizard >> Next
+		>> [x] Search tab, [x] Compile full-text Information >> Next
+		>> Finish
+		- Project tab >> Change project options button
+		- Compiler tab >> leave as is and add: [x] Support enhanced decompilation
+			(to help future editing)
+		- Leave all other tabs as is (maybe make sure General shows correct Default file and window)
+	- File >> Compile >> double-check the project file !!! >> Compile
+	- View >> Compiled File >> set the compiled file >> View
+
+- If needed: Edit METALSTO.hhk file:
+
+	Example: "Biovat: Creating Bioderms" should be single entry and not parent/child.
+
+	Change from this:
+
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Keyword" value="Biovat">
+			<param name="See Also" value="Biovat">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Keyword" value="Creating Bioderms">
+				<param name="Local" value="html/biovat.htm">
+				</OBJECT>
+		</UL>
+
+	To this:
+
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Keyword" value="Biovat: Creating Bioderms">
+			<param name="Name" value="Biovat: Creating Bioderms">
+			<param name="Local" value="html/biovat.htm">
+			</OBJECT>
+
+- If needed: Backup *.hhk *.hhp to another folder before redoing HHPMod, etc.
+	like: ...\HHW _bak_
+
+
+================================================================================
+
+RTF default unit is the twip.  20 twips = 1 point.
+RTF font unit is the half-point.  \fs20 = 10pt font.
+RTF drawing unit is the EMU.  12700 EMUs = 1 point.
+
+HHW puts in the <OBJECT> tags regardless of JS popup needs. Arg.
+
+HHW doesn't keep any blank lines! (not to mention table column sizing)
+This is the straw that broke the camel's back for me. (was willing to table tweak)
+Nevermind, worked around it with the SED script to add nbsp to blank lines in the RTF.
+
+Images are frustratingly wrapped in <P> although this could be scrubbed.
+Or... use a negative margin... duh!
+
+Table positioning:
+  Instead of trying to tag \trleftXXX into style="margin-left: XXXpt"
+    (which could work)
+  went with: align="center"  on all tables...
+    which was easier and looks better with CyberStorm.
+    (margin: auto; doesn't work for tables in CHM files)
+
+
+HelpScribble doesn't do a perfect job with SHG files.
+If the $ link name doesn't match the # link name, it won't find and make the link.
+Or, something like that.
+
+If using HelpScribble to build a CHM for later decompile for map scraping,
+set the HTML image type to GIF if the images are 8-bit color (or less).
+This is mainly because HHW produces GIFs by default and this will keep the
+filenames the same between HHW and HelpScribble...
+[which, may not actually matter to this code--so, whatever].
+(Don't know yet what HHW does with >8-bit BMP images.  JPEG?)
+Also, for 8-bit color, HelpScribble's GIFs are more efficient than their
+24-bit PNGs (unless you batch process all their PNGs to 8-bit).
+
+If using GIMP to build maps (Filters > Web > Image Map) be sure to also
+set the map name same as the image base filename (Mapping > Edit Map Info).
+
+
+WIN7 NOTE: These CHM GIFs reduce to the 20-color Windows palette in Win7 when
+in the game in 256-color mode (display fine outside the game).
+There *may* be a way around this but I don't care to try to find it right now.
+Can't imagine how though.
+Possibly with BMPs, PNGs, or JPEGs??? (ugh, more testing) ... NOPE!
+(and JPGs are worse due to fuzzy colors lost)
+All non-game windows go to 20 colors -- no one can fix that!
+[Run hh.exe in 256-color mode? Nah, don't want to mess with that!]
+In WinXP, however, the original help MVB shows maybe 128-color while in game
+(and displays fine outside the game).
+Wonder what it looked like in Win95?
+Note: this does not appy to Win10.
+
+
+================================================================================
+
+Regarding problems with regex ^ and $ in WSL:
+
+# In babun, this tests good:
+./fixrtf.sed sedtest.rtf > sedbabun.rtf
+
+# In WSL, this does not test good:
+./fixrtf.sed sedtest.rtf > sedwsl.rtf
+
+# In WSL, this tests good (no space here "<(...)"):
+./fixrtf.sed <(dos2unix < sedtest.rtf) > sedwsl-d2u.rtf
