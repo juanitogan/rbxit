@@ -21,11 +21,15 @@ For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win
 - [3·D Ultra MiniGolf Deluxe v2.0, German](https://github.com/juanitogan/rbxit/releases/download/3dumgd.g.patch.r6/3DUltraMiniGolfDeluxe-German-20-Win7fix.r6.exe) (a.k.a. _MaxiMiniGolf_)
 - [3·D Ultra MiniGolf Deluxe v2.0, French](https://github.com/juanitogan/rbxit/releases/download/3dumgd.f.patch.r5/3DUltraMiniGolfDeluxe-French-20-Win7fix.r5.exe) (a.k.a. _MiniGolf Fantasy_)
 - [3·D Ultra MiniGolf Deluxe Demo](https://github.com/juanitogan/rbxit/releases/download/1.0.0.3d-ultra-minigolf-deluxe-demo.0/3DUltraMiniGolfDeluxeDemo-complete-Win7fixed.zip) (complete and patched)
-- 3·D Ultra Pinball (install instructions found in the wiki)
+- 3·D Ultra Pinball (install instructions, see wiki)
 - [MissionForce: CyberStorm v1.0 and v1.1](https://github.com/juanitogan/rbxit/releases/download/cs1.patch.r7/CyberStorm-10-11-Win7fix.r7.exe)
 - MissionForce: CyberStorm v1.2 (the lost homebrew version, see wiki)
 - [CyberStorm 2: Corporate Wars](https://github.com/juanitogan/rbxit/releases/download/cs2.patch.r1/CyberStorm2-101-Patch.exe) (just a redo of Sierra’s 1.01 patch)
-- EarthSiege 2 (install instructions and tools found in the wiki)
+- EarthSiege 2 (install instructions and tools, see wiki)
+
+Other:
+
+- Birthright: The Gorgon's Alliance - [Birthright Preservation Patch](https://github.com/Shiryou/birp) (project I helped a bit with)
 
 In brief, most of what these patches do is replace the Sierra ADPCM audio data with standard 16-bit PCM audio data of the same sample rate, as well as adjusting the WAX header info so that the game knows what kind of audio data it is reading.  If you read through the patch's batch file, you will see that no EXE files are harmed during this production (thus far) and so there should be little threat of misconduct here.
 
@@ -115,3 +119,4 @@ Looking for hope with other games?
 - http://dege.freeweb.hu/
 - http://www.dosbox.com/
 - https://www.gog.com/
+
