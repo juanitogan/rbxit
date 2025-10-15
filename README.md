@@ -29,7 +29,7 @@ For the geeks who don't need no sleepy wiki, here are shortcuts to the RBXIT Win
 
 Other:
 
-- Birthright: The Gorgon's Alliance - [Birthright Preservation Patch](https://github.com/Shiryou/birp) (project I helped a bit with)
+- Birthright: The Gorgon's Alliance - [Birthright Preservation Patch](https://github.com/Shiryou/birp) (project I helped a [bit](https://github.com/juanitogan/rbxit/issues/13) with)
 
 In brief, most of what these patches do is replace the Sierra ADPCM audio data with standard 16-bit PCM audio data of the same sample rate, as well as adjusting the WAX header info so that the game knows what kind of audio data it is reading.  If you read through the patch's batch file, you will see that no EXE files are harmed during this production (thus far) and so there should be little threat of misconduct here.
 
@@ -119,4 +119,5 @@ Looking for hope with other games?
 - http://dege.freeweb.hu/
 - http://www.dosbox.com/
 - https://www.gog.com/
+
 
